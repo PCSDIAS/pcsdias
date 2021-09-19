@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+
+<head>
+	<title>50º Aniversário Formatura CMRJ</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		table,
+		th,
+		td {
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+	</style>
+</head>
+
+<body style="font-family: Verdana;">
+	<table style="width:100%;">
+		<tr>
+			<th style="width:20%;"></th>
+			<th style="font-size: 150%;">CMRJ<br>50º Aniversário de Formatura</th>
+			<th style="width:20%;">
+				<img src="cid:cmrjLogo" alt="logo CMRJ" style="width:100px;height:100px;"></th>
+		</tr>
+	</table>
+	<table style="width:100%;">
+		<tr>
+			<td style="text-align:right;width:10%; vertical-align:top;">Caro<?= plural ?></td>
+			<td style="white-space:pre;"><?= addressee ?><br><br></td>
+		</tr>
+	</table>
+	<div style="text-indent:10%;">É com grande prazer que me dirijo a você<?= plural ?> para passar informações
+		importantes a respeito de
+		nossa Confraternização para festejar o 50º aniversário de formatura do CMRJ.
+		Após contratempos causados pelos efeitos diretos e indiretos da pandemia de COVID-19
+		conseguimos, finalmente, realizar nosso objetivo.</div>
+	<div style="text-indent:10%;">Todos os participantes cumpriram suas obrigações
+		financeiras com o empreendimento, tendo sido possível ajustar o projeto do evento aos recursos disponíveis.
+	</div>
+	<div style="text-indent:10%;">A festa é nossa e foi preparada com muito cuidado para proporcionar momentos
+		memoráveis a todos.
+	</div>
+	<div style="text-align:center;"><br>Comissão de Festa</div>
+	<div style="text-align:center;font-weight:bold;font-size:150%;"><br> Informações úteis</div>
+			<table>
+				<tr>
+					<td style="text-align:right;">Data:</td>
+					<td>16 de Outubro de 2021</td>
+				</tr>
+				<tr>
+					<td style="text-align:right;">Hora:</td>
+					<td>20:00</td>
+				</tr>
+				<tr>
+					<td style="text-align:right;vertical-align:top;">Local:</td>
+					<td>Clube Piraquê<br>Av. Borges de Medeiros 2364<br>Lagoa</td>
+				</tr>
+				<tr>
+					<td style="text-align:right;">Espaço:</td>
+					<td>Salão Capitânia</td>
+				</tr>
+				<tr>
+					<td style="text-align:right;">Mesa:</td>
+					<td><?= locMesa ?></td>
+				</tr>
+				<tr>
+					<td style="text-align:right;vertical-align:top;">Traje:</td>
+					<td>
+						<a href="https://sergios.com.br/blog/blog/esporte-fino-entenda-de-uma-vez-por-todas-o-que-e-esse-traje/">
+							Esporte Fino.
+						</a> &nbsp;Blazer e terno são tolerados
+					</td>
+				</tr>
+				<tr>
+					<td style="text-align:right;vertical-align:top;">Apelido ou<br>Nome de Guerra: </td>
+					<td style="vertical-align:top;"><?= apelido ?></td>
+				</tr>
+			</table>
+			<div style="text-align:center;font-weight: bold;font-size:150%;"><br>Generalidades</div>
+				<ol>
+					<li>De acordo com determinação da Prefeitura do Município publicada no
+						<a href="https://doweb.rio.rj.gov.br/apifront/portal/edicoes/imprimir_materia/756460/5071">
+							Decreto 49337
+							de 26AGO2021</a>
+						&nbsp;o ingresso no Clube somente será permitido aos convidados que apresentarem prova
+						de vacinação contra a COVID-19 na forma de certificado digital, comprovante, caderneta ou cartão
+						de
+						vacinação.</li>
+					<li>O ingresso no Clube é condicionado ao uso de mascaras na face que cubram boca e nariz.</li>
+					<li>A entrada do Clube fica á direita de quem olha para a Lagoa. A saída fica à esquerda.</li>
+					<li>No dia do evento, a partir das 19:30, haverá uma recepcionista na portaria do Clube com uma
+						relação de nomes de guerra ou apelidos e respectivas quantidades de convite. Ela entregará
+						os convites aos convidados. Como temos colegas com nomes semelhantes peço cuidado para pegar
+						a quantidade certa de convites.<a href=<?= relClubeLink ?>> Clique aqui para ver esta
+							relação</a>.</li>
+					<li>Cada convidado apresentará seu convite ao funcionário do clube que liberará sua entrada</li>
+					<li>Após passar pela portaria, caminhar aproximadamente 100 metros pela alameda, passar pelo mastro
+						da Bandeira até chegar à piscina. O Salão Capitania fica a esquerda da piscina.</li>
+					<li>Na entrada do Salão haverá uma recepcionista que verificará os nomes dos convidados contra
+						uma relação. Esta segunda conferência visa o controle do Buffet e impedir penetras.
+						<a href=<?= relSalaoLink ?>> Clique aqui para ver esta relação</a>.</li>
+					<li>Reservamos a mesa <?= locMesa ?> para você<?= plural ?>. Na entrada do salão haverá um mapa com
+						a
+						localização das mesas. Além disto, cada mesa será identificada com uma placa com os nomes de
+						seus ocupantes. <a href=<?= locMesaLink ?>> Clique aqui para ver sua mesa no salão</a>.</li>
+				</ol>
+</body>
+
+</html>
